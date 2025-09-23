@@ -24,3 +24,9 @@ class Carro:
     def __init__(self):
         self.motor = None
         self.rodas = []
+
+    def set_motor(self, motor):
+        self.motor = motor
+
+    def set_rodas(self, rodas):
+        self.rodas = rodas
