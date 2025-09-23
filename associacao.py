@@ -5,3 +5,6 @@ class Motor:
 
     def get_potencia(self):
         return self.potencia
+    
+    def get_marca_motor(self):
+        return self.marca_motor
