@@ -19,3 +19,8 @@ class Roda:
 
     def get_marca_roda(self):
         return self.marca_roda
+    
+class Carro:
+    def __init__(self):
+        self.motor = None
+        self.rodas = []
