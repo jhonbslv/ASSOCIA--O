@@ -13,3 +13,9 @@ class Roda:
     def __init__(self, tamanho_roda, marca_roda):
         self.tamanho_roda = tamanho_roda
         self.marca_roda = marca_roda
+
+    def get_tamanho_roda(self):
+        return self.tamanho_roda
+
+    def get_marca_roda(self):
+        return self.marca_roda
