@@ -30,3 +30,9 @@ class Carro:
 
     def set_rodas(self, rodas):
         self.rodas = rodas
+
+    def get_motor(self):
+        return self.motor 
+
+    def get_rodas(self):
+        return self.rodas
