@@ -12,6 +12,7 @@ class Processador:
     def __str__(self):
         return f"processador: {self.get_modelo()} @ {self.get_velocidade_ghz():.2f} GHz"
 
+#classe processador e suas funçoes
 class MemoriaRAM:
     def __init__(self, capacidade_gb: int, tipo: str):
         self._capacidade_gb = capacidade_gb
