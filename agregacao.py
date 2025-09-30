@@ -7,6 +7,8 @@ class Funcionario:
     def get_nome(self):
         return self._nome
 
+    #funcao nome
+
     def get_cargo(self):
         return self._cargo
 
@@ -68,7 +70,7 @@ class Empresa:
 
 #Segunda classe, empresa
 
-print("  inicio cenario teste: Agregação")
+print("  inicio cenario teste: agregação")
 
 func1 = Funcionario("Alice Silva", "Desenvolvedora Jr", 3500.00)
 func2 = Funcionario("Bruno Costa", "Analista de RH Pleno", 6200.50)
@@ -110,4 +112,4 @@ print(f"Empresa B: {empresa_b}")
 
 empresa_b.listar_funcionarios()
 
-print("FIM DO CENÁRIO DE TESTE")
+print("fim cenario teste")
