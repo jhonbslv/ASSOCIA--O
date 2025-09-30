@@ -66,6 +66,8 @@ class Empresa:
     def __str__(self):
         return f"Empresa: {self.get_nome_empresa()} | CNPJ: {self.get_cnpj()} | Total de Funcionários: {len(self._funcionarios)}"
 
+#Segunda classe, empresa
+
 print("  inicio cenario teste: Agregação")
 
 func1 = Funcionario("Alice Silva", "Desenvolvedora Jr", 3500.00)
