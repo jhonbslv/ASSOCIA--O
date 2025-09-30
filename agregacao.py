@@ -16,6 +16,8 @@ class Funcionario:
 
     def get_salario(self):
         return self._salario
+    
+    #funcao salario
 
     def __str__(self):
         return f"Funcionário: {self.get_nome()} | Cargo: {self.get_cargo()} | Salário: R${self.get_salario():.2f}"
