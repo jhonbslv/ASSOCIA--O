@@ -81,6 +81,8 @@ class Empresa:
             salario = func.get_salario()
             print(f"[+] Nome: {nome}, Cargo: {cargo}, Salário: R${salario:.2f}")
 
+    #funcao funcionarios listar
+
     def __str__(self):
         return f"Empresa: {self.get_nome_empresa()} | CNPJ: {self.get_cnpj()} | Total de Funcionários: {len(self._funcionarios)}"
 
