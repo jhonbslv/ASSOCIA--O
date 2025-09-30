@@ -19,7 +19,7 @@ class Funcionario:
     def __repr__(self):
         return f"Funcionario(nome='{self.get_nome()}', cargo='{self.get_cargo()}')"
 
-
+#Primeira classe, funcionario
 class Empresa:
     def __init__(self, nome_empresa, cnpj):
         self._nome_empresa = nome_empresa
