@@ -86,6 +86,8 @@ class Computador:
                 f"  -> {self.get_processador()}\n"
                 f"  -> {self.get_memoria_ram()}\n"
                 f"  -> {self.get_armazenamento()}")
+    
+#classe computaddor e suas funçoes
 
 print("criação do objeto computador ---")
 meu_computador = Computador(
