@@ -22,6 +22,8 @@ class Funcionario:
     def __str__(self):
         return f"Funcionário: {self.get_nome()} | Cargo: {self.get_cargo()} | Salário: R${self.get_salario():.2f}"
 
+    #gets
+
     def __repr__(self):
         return f"Funcionario(nome='{self.get_nome()}', cargo='{self.get_cargo()}')"
 
