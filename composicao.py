@@ -85,7 +85,7 @@ class Computador:
                 f"  -> {self.get_armazenamento()}")
 
 print("criação do objeto computador ---")
-meu_computador = Computador(
+meu_computador = Computador
     marca="TechCorp",
     modelo="XPS-Ultra",
     proc_modelo="Core i9-12900K",
