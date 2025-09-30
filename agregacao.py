@@ -46,6 +46,8 @@ class Empresa:
 
     def get_funcionarios(self):
         return list(self._funcionarios)
+    
+    #funcao funcionarios
 
     def contratar_funcionario(self, funcionario: Funcionario):
         if funcionario not in self._funcionarios:
