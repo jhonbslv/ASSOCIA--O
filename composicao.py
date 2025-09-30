@@ -83,9 +83,9 @@ class Computador:
 
     def __str__(self):
         return (f"Computador: {self.get_marca()} {self.get_modelo()}\n"
-                f"  -> {self.get_processador()}\n"
-                f"  -> {self.get_memoria_ram()}\n"
-                f"  -> {self.get_armazenamento()}")
+                f"{self.get_processador()}\n"
+                f"{self.get_memoria_ram()}\n"
+                f"{self.get_armazenamento()}")
     
 #classe computaddor e suas funçoes
 
