@@ -12,6 +12,8 @@ class Funcionario:
     def get_cargo(self):
         return self._cargo
 
+    #funcao cargo
+
     def get_salario(self):
         return self._salario
 
