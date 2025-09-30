@@ -66,6 +66,8 @@ class Empresa:
         except ValueError:
             print(f"-> ERRO: {funcionario.get_nome()} NÃO é funcionário de {self.get_nome_empresa()}.")
         return self 
+    
+    #funcao funcionarios demitir
 
     def listar_funcionarios(self):
         print(f"\n--- Funcionários de {self.get_nome_empresa()} ({self.get_cnpj()}) ---")
