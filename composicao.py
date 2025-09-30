@@ -27,6 +27,7 @@ class MemoriaRAM:
     def __str__(self):
         return f"memória RAM: {self.get_capacidade_gb()} GB ({self.get_tipo()})"
 
+#classe memoriaRAM e suas funçoes
 class Armazenamento:
     def __init__(self, tipo: str, capacidade_gb: int):
         if tipo.upper() not in ['SSD', 'HDD']:
