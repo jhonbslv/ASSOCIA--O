@@ -57,6 +57,8 @@ class Empresa:
             print(f"-> {funcionario.get_nome()} JÁ está na lista de funcionários de {self.get_nome_empresa()}.")
         return self 
 
+    #funcao funcionarios contratar
+
     def demitir_funcionario(self, funcionario: Funcionario):
         try:
             self._funcionarios.remove(funcionario)
