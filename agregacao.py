@@ -42,7 +42,7 @@ class Empresa:
     def get_cnpj(self):
         return self._cnpj
 
-    
+    #funcao retornar cnpj
 
     def get_funcionarios(self):
         return list(self._funcionarios)
