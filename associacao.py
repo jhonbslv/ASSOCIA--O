@@ -68,3 +68,14 @@ carro5.set_rodas([roda1, roda1, roda1, roda1])
 
 carro6.set_motor(motor3)
 carro6.set_rodas([roda2, roda2, roda2, roda2])
+
+print("informações dos caros")
+lista_carros = [carro1, carro2, carro3, carro4, carro5, carro6]
+for i, carro in enumerate(lista_carros):
+    motor = carro.get_motor()
+    rodas = carro.get_rodas()
+    print(f"\nCarro {i+1}:")
+    if motor:
+        print(f"  Motor: Marca = {motor.get_marca_motor()}, Potência = {motor.get_potencia()} L")
+    if rodas:
+        print(f"  Rodas: Marca = {rodas[0].get_marca_roda()}, Tamanho = {rodas[0].get_tamanho_roda()} polegadas")
