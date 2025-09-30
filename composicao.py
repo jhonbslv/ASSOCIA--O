@@ -44,6 +44,7 @@ class Armazenamento:
     def __str__(self):
         return f"armazenamento: {self.get_tipo()} de {self.get_capacidade_gb()} GB"
 
+#classe armazenamento e suas funçoes
 class Computador:
     def __init__(self, marca: str, modelo: str, proc_modelo: str, proc_velocidade: float,
                  ram_capacidade: int, ram_tipo: str, arm_tipo: str, arm_capacidade: int):
