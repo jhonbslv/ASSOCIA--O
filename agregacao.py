@@ -37,8 +37,12 @@ class Empresa:
     def get_nome_empresa(self):
         return self._nome_empresa
 
+    #funcao retornar nome empesa
+
     def get_cnpj(self):
         return self._cnpj
+
+    
 
     def get_funcionarios(self):
         return list(self._funcionarios)
