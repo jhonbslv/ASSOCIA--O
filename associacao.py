@@ -41,6 +41,8 @@ class Carro:
     def get_rodas(self):
         return self.rodas
     
+    #funçoes 
+    
 motor1 = Motor(2.0, "Ford")
 motor2 = Motor(1.6, "Volkswagen")
 motor3 = Motor(3.0, "BMW")
