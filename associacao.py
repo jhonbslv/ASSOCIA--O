@@ -9,6 +9,7 @@ class Motor:
     def get_marca_motor(self):
         return self.marca_motor
     
+    #classe motor
 class Roda:
     def __init__(self, tamanho_roda, marca_roda):
         self.tamanho_roda = tamanho_roda
@@ -20,10 +21,13 @@ class Roda:
     def get_marca_roda(self):
         return self.marca_roda
     
+    #classe roda
 class Carro:
     def __init__(self):
         self.motor = None
         self.rodas = []
+
+    #classe carro
 
     def set_motor(self, motor):
         self.motor = motor
