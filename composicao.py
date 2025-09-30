@@ -118,4 +118,4 @@ try:
     print("tentando acessar 'meu_computador'...")
     meu_computador.ligar() 
 except NameError as e:
-    print(f"SUCESSO: {e}. o objeto computador não existe mais.")
+    print(f"SUCESSO: {e}. o objeto computador não existe")
